@@ -1,6 +1,6 @@
-# Dj Cieux Presskit
+# WELCOME!
 
-A single-page portfolio website for DJ Cieux, a La Union / Baguio-based.
+A personal single-page portfolio website for DJ Cieux, a La Union / Baguio-based. 
 
 # Live site:
 https://lrpjbaybayan.github.io/DJ-Cieux/
