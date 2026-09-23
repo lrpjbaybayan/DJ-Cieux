@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center 70%;
-  padding: 64px 0 48px;
+  padding: 90px 0 45px;
   overflow: hidden;
   border-bottom: 1px solid var(--line);
   background-image: url('../image/dj-photo.jpg');
