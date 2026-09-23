@@ -32,12 +32,12 @@ body {
   min-height: 100svh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 50px 0 48px;
+  justify-content: center 70%;
+  padding: 64px 0 48px;
   overflow: hidden;
   border-bottom: 1px solid var(--line);
   background-image: url('../image/dj-photo.jpg');
-  background-image: cover;
+  background-image: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
