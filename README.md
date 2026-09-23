@@ -4,7 +4,7 @@ A single-page portfolio website for DJ Cieux, a La Union / Baguio-based.
 
 Live site
 
-[Add your Netlify or GitHub Pages link here once deployed] 
+https://lrpjbaybayan.github.io/DJ-Cieux/
 
 # Features
 | Genres Played   |      
