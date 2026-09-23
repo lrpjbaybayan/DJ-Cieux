@@ -36,14 +36,18 @@ body {
   padding: 64px 0 48px;
   overflow: hidden;
   border-bottom: 1px solid var(--line);
+  background-image: url('../image/dj-hero.jpg');
+  background-image: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(60% 50% at 78% 22%, rgba(195,198,247,0.16), transparent 70%),
-    repeating-linear-gradient(115deg, rgba(195,198,247,0.05) 0 2px, transparent 2px 64px);
+    radial-gradient(60% 50% at 78% 22%, rgba(195,198,247,0.14), transparent 70%),
+    linear-gradient(180deg, rgba(8,8,10,0.55) 0%, rgba(8,8,10,0.75) 60%, rgba(8,8,10,0.92) 100%,);
   pointer-events: none;
 }
 .kicker {
