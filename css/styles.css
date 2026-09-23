@@ -107,10 +107,13 @@ body {
 section { padding: 90px 0; border-bottom: 1px solid var(--line); }
 .about-grid {
   display: grid;
-  grid-template-columns: 1.6fr auto;
-  column-gap: 30px;
+  grid-template-columns: minmax(0,640px) auto;
+  cgrid-template-areas:
+    "label  label"
+    "text   photo";
+  column-gap: 40px;
   row-gap: 24px;
-  align-items: left;
+  justify-content: start;
 }
 .about-photo {
   width: 220px;
