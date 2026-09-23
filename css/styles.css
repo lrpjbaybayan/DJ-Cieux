@@ -109,7 +109,7 @@ section { padding: 90px 0; border-bottom: 1px solid var(--line); }
   display: grid;
   grid-template-columns: auto 1.6fr auto; /* label | text | photo*/
   gap: 30px;
-  align-items: start;
+  align-items: center;
 }
 .label { 
   order: 1;
@@ -123,6 +123,7 @@ section { padding: 90px 0; border-bottom: 1px solid var(--line); }
   aspect ratio: 4/5;
   overflow: hidden;
   border: 2px solid var(--line);
+  align-self: start;
   border-radius: 4px;
 }
 .about-photo img {
