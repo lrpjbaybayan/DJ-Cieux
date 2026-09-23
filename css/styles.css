@@ -24,21 +24,22 @@ body {
   * { animation: none !important; transition: none !important; }
 }
 
-.wrap { max-width: 1040px; margin: 0 auto; padding: 0 28px; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 28px; }
 
 /* ---------- HERO ---------- */
 .hero {
   position: relative;
-  min-height: 100svh;
+  min-height: auto;
+  aspect-rato: 9/16;
   display: flex;
   flex-direction: column;
-  justify-content: center 30%;
-  padding: 90px 0 35px;
+  justify-content: center;
+  padding: 64px 0 48px;
   overflow: hidden;
   border-bottom: 1px solid var(--line);
   background-image: url('../image/dj-photo.jpg');
   background-image: contain;
-  background-position: center top;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .hero::before {
