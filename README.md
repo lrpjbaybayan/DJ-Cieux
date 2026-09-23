@@ -1,11 +1,10 @@
 # WELCOME!
 
-A personal single-page portfolio website for DJ Cieux, a La Union / Baguio-based. 
+A personal single-page portfolio website for DJ Cieux, a La Union / Baguio-based. Featuring:
 
 # Live site:
 https://lrpjbaybayan.github.io/DJ-Cieux/
 
-# Features
 | Genres Played   |      
 | :-----------   | 
 |About section with bio | 
