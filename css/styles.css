@@ -107,11 +107,17 @@ body {
 section { padding: 96px 0; border-bottom: 1px solid var(--line); }
 .about-grid {
   display: grid;
-  grid-template-columns: 1fr 1.6fr;
+  grid-template-columns: auto 1.6fr auto; /* label | text | photo*/
   gap: 40px;
   align-items: start;
 }
+.label { order: 1;
+       }
+.about-text{
+  order: 2;
+}
 .about-photo {
+  order: 3;
   width: 220px;
   aspect ratio: 4/5;
   overflow: hidden;
