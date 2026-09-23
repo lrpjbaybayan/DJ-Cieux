@@ -107,20 +107,17 @@ body {
 section { padding: 90px 0; border-bottom: 1px solid var(--line); }
 .about-grid {
   display: grid;
-  grid-template-columns: auto 1.6fr auto; /* label | text | photo*/
-  gap: 30px;
+  grid-template-columns: 1.6fr auto;
+  grid-template-areas:
+      "label  label"
+      "text   photo";
+  column-gap: 30px;
+  row-gap: 24px;
   align-items: center;
 }
-.label { 
-  order: 2;
-       }
-.about-text {
-  order: 1;
-}
 .about-photo {
-  order: 3;
   width: 220px;
-  aspect ratio: 4/5;
+  aspect-ratio: 4/5;
   overflow: hidden;
   border: 2px solid var(--line);
   align-self: start;
@@ -135,6 +132,10 @@ section { padding: 90px 0; border-bottom: 1px solid var(--line); }
 @media (max-width: 900px) {
   .about-grid {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "label"
+      "photo"
+       "text";
   }
   .about-photo {
     width: 180px;
