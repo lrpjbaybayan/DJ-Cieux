@@ -112,10 +112,10 @@ section { padding: 90px 0; border-bottom: 1px solid var(--line); }
   align-items: center;
 }
 .label { 
-  order: 1;
+  order: 2;
        }
 .about-text {
-  order: 2;
+  order: 1;
 }
 .about-photo {
   order: 3;
