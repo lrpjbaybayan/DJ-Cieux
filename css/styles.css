@@ -33,12 +33,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center 30%;
-  padding: 90px 0 45px;
+  padding: 90px 0 35px;
   overflow: hidden;
   border-bottom: 1px solid var(--line);
   background-image: url('../image/dj-photo.jpg');
   background-image: contain;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
 }
 .hero::before {
@@ -46,8 +46,8 @@ body {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(60% 50% at 78% 22%, rgba(195,198,247,0.14), transparent 50%),
-    linear-gradient(180deg, rgba(8,8,10,0.55) 0%, rgba(8,8,10,0.75) 60%, rgba(8,8,10,0.92) 100%,);
+    radial-gradient(60% 50% at 78% 22%, rgba(195,198,247,0.14), transparent 80%),
+    linear-gradient(180deg, rgba(8,8,10,0.25) 0%, rgba(8,8,10,0.45) 60%, rgba(8,8,10,0.9) 100%,);
   pointer-events: none;
 }
 .kicker {
