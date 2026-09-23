@@ -1,9 +1,9 @@
 # WELCOME!
 
 A personal single-page portfolio website for DJ Cieux, a La Union / Baguio-based. Featuring:
-
-| Genres Played   |      
+     
 | :-----------   | 
+| Genres Played   | 
 |About section with bio | 
 |Venues played, split by La Union and Baguio City / Manila |
 |Contact section|
