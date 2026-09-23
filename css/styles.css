@@ -104,16 +104,17 @@ body {
 }
 
 /* ---------- ABOUT ---------- */
-section { padding: 96px 0; border-bottom: 1px solid var(--line); }
+section { padding: 90px 0; border-bottom: 1px solid var(--line); }
 .about-grid {
   display: grid;
   grid-template-columns: auto 1.6fr auto; /* label | text | photo*/
-  gap: 40px;
+  gap: 30px;
   align-items: start;
 }
-.label { order: 1;
+.label { 
+  order: 1;
        }
-.about-text{
+.about-text {
   order: 2;
 }
 .about-photo {
