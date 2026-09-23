@@ -113,7 +113,7 @@ section { padding: 90px 0; border-bottom: 1px solid var(--line); }
       "text   photo";
   column-gap: 30px;
   row-gap: 24px;
-  align-items: center;
+  align-items: left;
 }
 .about-photo {
   width: 220px;
